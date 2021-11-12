@@ -1,0 +1,58 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"
+        charset="utf-8"></script>
+    <script type="text/javascript">
+    </script>
+    <link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
+    <meta charset="utf-8">
+    <title>Supply</title>
+    <link rel="icon" type="image/png" href="img/favicon.ico">
+
+</head>
+
+<body>
+    <ul class="nav">
+        <img src="img/logo.png">
+        <li><a class="border-button" onclick="oncl()">Скачать</a></li>
+    </ul>
+    <iframe src="https://discordapp.com/widget?id=895004655287926824&username=Supply228&theme=dark" width="350"
+        height="500" allowtransparency="true" frameborder="0"
+        sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+    <iframe width="590" height="400" src="https://www.youtube.com/embed/KMifr_nKVYE?controls=0"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    ff
+    <?php
+    //your PHP code goes here
+    echo("test");
+    ?>
+    <script language="JavaScript">
+    pic = new Array(
+        '<img src="img/THEBEAR.png" width=312 heigth=364 alt="bear"/>',
+        '<img src="img/dog.gif" width=312 heigth=364 alt="dog"/>',
+        '<img src="img/indri.gif" width=312 heigth=364 alt="indri"/>',
+        '<img src="img/fox.gif" width=312 heigth=364 alt="fox"/>'
+    );
+    gaga = Math.floor(Math.random() * pic.length);
+    document.write(pic[gaga]);
+
+    function oncl() {
+        alert("sfds");
+    }
+
+    function secret() {
+        window.open("secret.html", "_self")
+    }
+         
+    </script>
+
+    <footer>
+        <div class="div">
+            <button onclick="secret()" class="gg"><img class="img" src="sources/minecraft.png"></button>
+        </div>
+    </footer>
+</body>
+</html>
